@@ -1,0 +1,80 @@
+------------------------------------------------------------------------------------------------------
+LAB -1
+Cloud Watch/Cloud Alarm
+
+Each alert uses one Amazon CloudWatch alarm to monitor charges and one Amazon SNS(Simple Notification Service)topic to send the alert email charged at standard rates.
+You can use upto 10 alarms and 1,000 e-mail notifications free each month as part of the AWS Free Tier
+and most customers will be able to use billing alerts at no additional charge.
+
+LAB:
+Create Alarm for CPU Utilization?
+---------------------------------------------------------------------------------------------
+
+IAM
+AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely.
+Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.
+IAM is a feature of your AWS account offered at no additional charge.
+
+Azure role-based access control (Azure RBAC) helps you manage who has access to Azure resources, 
+what they can do with those resources, and what areas they have access to
+
+LAB1
+Create a IAM user in aws account
+user--adduser---program /console accesss/custom pass/---attach policy (admin access)----
+abilash@1230
+
+lab 2 for students
+
+create a iAM access to create only S3 service
+
+
+-----------------------------------------------------------------------------------------------------------
+LAB-2
+What is cloud watch logs?
+
+
+{
+ "Version": "2012-10-17",
+ "Statement": [
+ {
+ "Effect": "Allow",
+ "Action": [
+ "logs:CreateLogGroup",
+ "logs:CreateLogStream",
+ "logs:PutLogEvents",
+ "logs:DescribeLogStreams"
+ ],
+ "Resource": [
+ "*"
+ ]
+ }
+]
+
+CloudWatch Logs enables you to centralize the logs from all of your systems, applications, and AWS services that you use,
+in a single, highly scalable service. You can then easily view them, search them for specific error codes or patterns,
+filter them based on specific fields, or archive them securely for future analysis.
+
+You can use Amazon CloudWatch Logs to monitor, store, and access your log files
+from Amazon Elastic Compute Cloud (Amazon EC2)instances, AWS CloudTrail, Route 53, and other sources.
+
+LAB
+Apllication logs from Ec2 instances in Cloud watch?
+------------------------------------------------------------------------------------------------------
+LAB-3
+Cloud Metrics
+Cloud metrics provides insights into your cloud computing. 
+It allows predictive analysis of your system, 
+to determine when your servers are under load and requires provisioning
+
+LAB to analyse disk usage
+--------------------------------------------------------------------------------
+Route 53
+What is DNS?
+DNS, or the Domain Name System, translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses 
+LAB:Signin and purchase a domain in freenom
+-------------------------------------------------------------------------
+
+Elastic bean stalk 
+ebs lab
+---------------------------------------------------------------------
+
